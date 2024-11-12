@@ -11,6 +11,8 @@ public class FootballPlayer extends Person {
 		this.height = height;
 		this.weight = weight;
 		this.goal = goal;
+		
+		
 	}
 
 }
