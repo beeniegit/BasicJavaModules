@@ -3,6 +3,10 @@ package com.example.Nov14.Payphone;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter 
 public class PlayerList <T> {
 	
 	private List<T> 리스트 = new ArrayList<>();

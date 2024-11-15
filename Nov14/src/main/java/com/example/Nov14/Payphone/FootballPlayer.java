@@ -12,6 +12,7 @@ public class FootballPlayer <T> extends Player {
 	
 	public FootballPlayer(String name, int age, String position, int goal, int assist) {
 		super(name, age);
+		this.position = position;
 		this.goal = goal;
 		this.assist = assist;
 	}

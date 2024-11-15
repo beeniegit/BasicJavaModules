@@ -13,6 +13,7 @@ import com.example.Nov14.Generics.Class.Human;
 import com.example.Nov14.Generics.Class.Person;
 import com.example.Nov14.Homework.FootballPlayer;
 import com.example.Nov14.Payphone.LoLPlayer;
+import com.example.Nov14.Payphone.Player;
 import com.example.Nov14.Payphone.PlayerList;
 
 @SpringBootApplication
@@ -42,9 +43,16 @@ public class Nov14Application {
 	}
 	
 	public static void workspace() {
-		PlayerList<LoLPlayer> listl = new PlayerList();
+		PlayerList<Player> listl = new PlayerList();
 		listl.put(new LoLPlayer("김도빈", 17, "탑", 1));
-		List<LoLPlayer> nn = listl.
+		listl.put(new LoLPlayer("Faker", 28, "미드", 500));
+		listl.put(new LoLPlayer("Gumayusi", 23, "원딜", 100));
+		listl.put(new FootballPlayer("Son", 32, "좌윙", 50, 50));
+		listl.printer();
+		List<Player> nn = listl.get리스트();
+		for (Player n : nn) {
+			System.out.println(n.getName());
+		}
 			
 	}
 	
