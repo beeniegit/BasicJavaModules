@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.Nov14.Generics.DataList;
 import com.example.Nov14.Generics.Class.Human;
 import com.example.Nov14.Generics.Class.Person;
-import com.example.Nov14.Homework.FootballPlayer;
+import com.example.Nov14.Payphone.FootballPlayer;
 import com.example.Nov14.Payphone.LoLPlayer;
 import com.example.Nov14.Payphone.Player;
 import com.example.Nov14.Payphone.PlayerList;
@@ -48,6 +48,8 @@ public class Nov14Application {
 		listl.put(new LoLPlayer("Faker", 28, "미드", 500));
 		listl.put(new LoLPlayer("Gumayusi", 23, "원딜", 100));
 		listl.put(new FootballPlayer("Son", 32, "좌윙", 50, 50));
+		listl.put(new FootballPlayer("강두", 1, "스트", 40, 40));
+		listl.put(new FootballPlayer("앙까라메시", 40, "우윙", 100, 80));
 		listl.printer();
 		List<Player> nn = listl.get리스트();
 		for (Player n : nn) {
@@ -57,17 +59,17 @@ public class Nov14Application {
 	}
 	
 	public static void beenie_workspace() {
-		Map<String, List<FootballPlayer>> map = new HashMap<>();
-		List<FootballPlayer> list = new ArrayList<>();
-		list.add(new FootballPlayer("강두", 23, 22, 1));
-		list.add(new FootballPlayer("우리흥", 32, 15, 10));
+		Map<String, List<com.example.Nov14.Homework.FootballPlayer>> map = new HashMap<>();
+		List<com.example.Nov14.Homework.FootballPlayer> list = new ArrayList<>();
+		list.add(new com.example.Nov14.Homework.FootballPlayer("강두",  23, 22, 1));
+		list.add(new com.example.Nov14.Homework.FootballPlayer("우리흥", 32, 15, 10));
 		
 		map.put("Spurs", list);
 		map.put("Arsenal", null);
 		
-		List<FootballPlayer> 공차개 = map.get("Spurs");
+		List<com.example.Nov14.Homework.FootballPlayer> 공차개 = map.get("Spurs");
     	if (공차개 != null) {
-            for (FootballPlayer t : 공차개) {
+            for (com.example.Nov14.Homework.FootballPlayer t : 공차개) {
                 System.out.println(t);
             }
     	}
