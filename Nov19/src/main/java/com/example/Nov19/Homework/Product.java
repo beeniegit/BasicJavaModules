@@ -2,9 +2,9 @@ package com.example.Nov19.Homework;
 
 public class Product {
 	
-	private int 생산년도;
-	private String 제품이름;
-	private Type 종류;
+	protected int 생산년도;
+	protected String 제품이름;
+	protected Type 종류;
 	
 	public Product(int 생산년도, String 제품이름, Type 종류) {
 		this.생산년도 = 생산년도;

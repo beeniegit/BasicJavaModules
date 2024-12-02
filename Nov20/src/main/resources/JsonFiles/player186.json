@@ -1,0 +1,415 @@
+{
+  "get": "players",
+  "parameters": {
+    "id": "186",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1.0,
+  "paging": {
+    "current": 1.0,
+    "total": 1.0
+  },
+  "response": [
+    {
+      "player": {
+        "id": 186.0,
+        "name": "Son Heung-Min",
+        "firstname": "Heung-Min",
+        "lastname": "Son",
+        "age": 32.0,
+        "birth": {
+          "date": "1992-07-08",
+          "place": "Chuncheon",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/186.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 47.0,
+            "name": "Tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "league": {
+            "id": 39.0,
+            "name": "Premier League",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/39.png",
+            "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 30.0,
+            "lineups": 28.0,
+            "minutes": 2485.0,
+            "position": "Attacker",
+            "rating": "7.086666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2.0,
+            "out": 10.0,
+            "bench": 2.0
+          },
+          "shots": {
+            "total": 81.0,
+            "on": 38.0
+          },
+          "goals": {
+            "total": 11.0,
+            "assists": 10.0
+          },
+          "passes": {
+            "total": 675.0,
+            "key": 42.0,
+            "accuracy": 83.0
+          },
+          "tackles": {
+            "total": 23.0,
+            "blocks": 0.0,
+            "interceptions": 19.0
+          },
+          "duels": {
+            "total": 323.0,
+            "won": 119.0
+          },
+          "dribbles": {
+            "attempts": 107.0,
+            "success": 62.0
+          },
+          "fouls": {
+            "drawn": 27.0,
+            "committed": 17.0
+          },
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 2.0
+          },
+          "penalty": {
+            "won": 1.0,
+            "scored": 0.0,
+            "missed": 1.0
+          }
+        },
+        {
+          "team": {
+            "id": 47.0,
+            "name": "Tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "league": {
+            "id": 48.0,
+            "name": "League Cup",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/48.png",
+            "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 1.0,
+            "lineups": 0.0,
+            "minutes": 24.0,
+            "position": "Attacker",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1.0,
+            "out": 0.0,
+            "bench": 1.0
+          },
+          "shots": {
+            "total": 1.0,
+            "on": 0.0
+          },
+          "goals": {
+            "total": 0.0
+          },
+          "passes": {
+            "total": 9.0,
+            "key": 2.0,
+            "accuracy": 100.0
+          },
+          "tackles": {
+            "interceptions": 0.0
+          },
+          "duels": {},
+          "dribbles": {
+            "attempts": 4.0,
+            "success": 1.0
+          },
+          "fouls": {
+            "drawn": 0.0,
+            "committed": 0.0
+          },
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "scored": 0.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 47.0,
+            "name": "Tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "league": {
+            "id": 45.0,
+            "name": "FA Cup",
+            "country": "England",
+            "logo": "https://media.api-sports.io/football/leagues/45.png",
+            "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 4.0,
+            "lineups": 3.0,
+            "minutes": 299.0,
+            "position": "Attacker",
+            "rating": "7.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1.0,
+            "out": 0.0,
+            "bench": 1.0
+          },
+          "shots": {
+            "total": 7.0,
+            "on": 2.0
+          },
+          "goals": {
+            "total": 2.0
+          },
+          "passes": {
+            "total": 84.0,
+            "key": 8.0,
+            "accuracy": 80.0
+          },
+          "tackles": {
+            "total": 2.0,
+            "blocks": 0.0,
+            "interceptions": 2.0
+          },
+          "duels": {},
+          "dribbles": {
+            "attempts": 13.0,
+            "success": 7.0
+          },
+          "fouls": {
+            "drawn": 6.0,
+            "committed": 3.0
+          },
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "won": 1.0,
+            "scored": 1.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 47.0,
+            "name": "Tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "league": {
+            "id": 2.0,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/2.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 6.0,
+            "lineups": 4.0,
+            "minutes": 365.0,
+            "position": "Attacker",
+            "rating": "7.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2.0,
+            "out": 2.0,
+            "bench": 2.0
+          },
+          "shots": {
+            "total": 18.0,
+            "on": 11.0
+          },
+          "goals": {
+            "total": 5.0,
+            "assists": 1.0
+          },
+          "passes": {
+            "total": 104.0,
+            "key": 5.0,
+            "accuracy": 76.0
+          },
+          "tackles": {
+            "total": 8.0,
+            "blocks": 0.0,
+            "interceptions": 2.0
+          },
+          "duels": {},
+          "dribbles": {
+            "attempts": 21.0,
+            "success": 13.0
+          },
+          "fouls": {
+            "drawn": 4.0,
+            "committed": 4.0
+          },
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "scored": 0.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 47.0,
+            "name": "Tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "league": {
+            "id": 26.0,
+            "name": "International Champions Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/26.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 3.0,
+            "lineups": 1.0,
+            "minutes": 116.0,
+            "position": "Attacker",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2.0,
+            "out": 1.0,
+            "bench": 2.0
+          },
+          "shots": {},
+          "goals": {
+            "total": 0.0
+          },
+          "passes": {},
+          "tackles": {},
+          "duels": {},
+          "dribbles": {},
+          "fouls": {},
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {}
+        },
+        {
+          "team": {
+            "id": 17.0,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 7.0,
+            "name": "Asian Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/7.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 3.0,
+            "lineups": 3.0,
+            "minutes": 299.0,
+            "position": "Attacker",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0.0,
+            "out": 1.0,
+            "bench": 0.0
+          },
+          "shots": {},
+          "goals": {
+            "total": 0.0
+          },
+          "passes": {},
+          "tackles": {},
+          "duels": {},
+          "dribbles": {},
+          "fouls": {},
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {}
+        },
+        {
+          "team": {
+            "id": 17.0,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10.0,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 6.0,
+            "lineups": 6.0,
+            "minutes": 512.0,
+            "position": "Attacker",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0.0,
+            "out": 1.0,
+            "bench": 0.0
+          },
+          "shots": {},
+          "goals": {
+            "total": 1.0
+          },
+          "passes": {},
+          "tackles": {},
+          "duels": {},
+          "dribbles": {},
+          "fouls": {},
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {}
+        }
+      ]
+    }
+  ]
+}

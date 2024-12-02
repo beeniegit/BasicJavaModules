@@ -1,0 +1,340 @@
+{
+  "get": "players",
+  "parameters": {
+    "id": "276",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1.0,
+  "paging": {
+    "current": 1.0,
+    "total": 1.0
+  },
+  "response": [
+    {
+      "player": {
+        "id": 276.0,
+        "name": "Neymar",
+        "firstname": "Neymar",
+        "lastname": "da Silva Santos Júnior",
+        "age": 32.0,
+        "birth": {
+          "date": "1992-02-05",
+          "place": "Mogi das Cruzes",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/276.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85.0,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61.0,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media.api-sports.io/football/leagues/61.png",
+            "flag": "https://media.api-sports.io/flags/fr.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 15.0,
+            "lineups": 15.0,
+            "minutes": 1322.0,
+            "position": "Attacker",
+            "rating": "8.053333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0.0,
+            "out": 3.0,
+            "bench": 0.0
+          },
+          "shots": {
+            "total": 70.0,
+            "on": 36.0
+          },
+          "goals": {
+            "total": 13.0,
+            "assists": 6.0
+          },
+          "passes": {
+            "total": 704.0,
+            "key": 39.0,
+            "accuracy": 79.0
+          },
+          "tackles": {
+            "total": 13.0,
+            "blocks": 0.0,
+            "interceptions": 4.0
+          },
+          "duels": {},
+          "dribbles": {
+            "attempts": 143.0,
+            "success": 88.0
+          },
+          "fouls": {
+            "drawn": 62.0,
+            "committed": 14.0
+          },
+          "cards": {
+            "yellow": 3.0,
+            "yellowred": 1.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "won": 1.0,
+            "scored": 4.0,
+            "missed": 1.0
+          }
+        },
+        {
+          "team": {
+            "id": 85.0,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 65.0,
+            "name": "Coupe de la Ligue",
+            "country": "France",
+            "logo": "https://media.api-sports.io/football/leagues/65.png",
+            "flag": "https://media.api-sports.io/flags/fr.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 3.0,
+            "lineups": 3.0,
+            "minutes": 300.0,
+            "position": "Attacker",
+            "rating": "7.533333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0.0,
+            "out": 0.0,
+            "bench": 0.0
+          },
+          "shots": {
+            "total": 11.0,
+            "on": 5.0
+          },
+          "goals": {
+            "total": 1.0,
+            "assists": 1.0
+          },
+          "passes": {
+            "total": 144.0,
+            "key": 8.0,
+            "accuracy": 75.0
+          },
+          "tackles": {
+            "total": 3.0,
+            "blocks": 1.0,
+            "interceptions": 1.0
+          },
+          "duels": {
+            "total": 24.0,
+            "won": 15.0
+          },
+          "dribbles": {
+            "attempts": 30.0,
+            "success": 11.0
+          },
+          "fouls": {
+            "drawn": 14.0,
+            "committed": 1.0
+          },
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "scored": 0.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 85.0,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 66.0,
+            "name": "Coupe de France",
+            "country": "France",
+            "logo": "https://media.api-sports.io/football/leagues/66.png",
+            "flag": "https://media.api-sports.io/flags/fr.svg",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 2.0,
+            "lineups": 2.0,
+            "minutes": 180.0,
+            "position": "Attacker",
+            "rating": "7.550000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0.0,
+            "out": 0.0,
+            "bench": 1.0
+          },
+          "shots": {
+            "total": 6.0,
+            "on": 3.0
+          },
+          "goals": {
+            "total": 2.0
+          },
+          "passes": {
+            "total": 85.0,
+            "key": 4.0,
+            "accuracy": 76.0
+          },
+          "tackles": {
+            "blocks": 0.0,
+            "interceptions": 1.0
+          },
+          "duels": {
+            "total": 16.0,
+            "won": 6.0
+          },
+          "dribbles": {
+            "attempts": 16.0,
+            "success": 10.0
+          },
+          "fouls": {
+            "drawn": 3.0,
+            "committed": 3.0
+          },
+          "cards": {
+            "yellow": 1.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "scored": 1.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 85.0,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2.0,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/2.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 7.0,
+            "lineups": 6.0,
+            "minutes": 584.0,
+            "position": "Attacker",
+            "rating": "7.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1.0,
+            "out": 0.0,
+            "bench": 1.0
+          },
+          "shots": {
+            "total": 22.0,
+            "on": 6.0
+          },
+          "goals": {
+            "total": 3.0,
+            "assists": 4.0
+          },
+          "passes": {
+            "total": 213.0,
+            "key": 16.0,
+            "accuracy": 73.0
+          },
+          "tackles": {
+            "total": 7.0,
+            "blocks": 0.0,
+            "interceptions": 2.0
+          },
+          "duels": {
+            "total": 74.0,
+            "won": 46.0
+          },
+          "dribbles": {
+            "attempts": 57.0,
+            "success": 37.0
+          },
+          "fouls": {
+            "drawn": 28.0,
+            "committed": 9.0
+          },
+          "cards": {
+            "yellow": 3.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {
+            "scored": 0.0,
+            "missed": 0.0
+          }
+        },
+        {
+          "team": {
+            "id": 6.0,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 10.0,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "season": 2019.0
+          },
+          "games": {
+            "appearences": 5.0,
+            "lineups": 4.0,
+            "minutes": 240.0,
+            "position": "Attacker",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1.0,
+            "out": 2.0,
+            "bench": 1.0
+          },
+          "shots": {},
+          "goals": {
+            "total": 1.0
+          },
+          "passes": {},
+          "tackles": {},
+          "duels": {},
+          "dribbles": {},
+          "fouls": {},
+          "cards": {
+            "yellow": 0.0,
+            "yellowred": 0.0,
+            "red": 0.0
+          },
+          "penalty": {}
+        }
+      ]
+    }
+  ]
+}

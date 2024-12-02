@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.example.Nov19.Homework.Furniture;
 import com.example.Nov19.Homework.Product;
 import com.example.Nov19.Homework.Type;
 
@@ -24,6 +25,15 @@ public class Nov19Application {
 		p.add(new Product(210311, "에이스침대", Type.가구류));
 		p.add(new Product(130826, "이케아책상", Type.가구류));
 		p.add(new Product(221225, "템퍼매트리스", Type.가구류));
+		
+		List<Furniture> f = new ArrayList<>();
+		for (Product pp : p) {
+			if (pp.get종류() == Type.가구류) {
+				
+			} else {
+				System.out.println("가구류만 등록 가능합니다.");
+			}
+		}
 	}
 
 }

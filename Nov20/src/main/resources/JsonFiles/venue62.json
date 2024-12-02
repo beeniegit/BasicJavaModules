@@ -1,0 +1,24 @@
+{
+  "get": "venues",
+  "parameters": {
+    "id": "62"
+  },
+  "errors": [],
+  "results": 1.0,
+  "paging": {
+    "current": 1.0,
+    "total": 1.0
+  },
+  "response": [
+    {
+      "id": 62.0,
+      "name": "Estadio Armenia",
+      "address": "Ruta Provincial 26 y Quintana, entre San Lorenzo y Alberti",
+      "city": "Ingeniero Maschwitz, Provincia de Buenos Aires",
+      "country": "Argentina",
+      "capacity": 10500.0,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/62.png"
+    }
+  ]
+}
