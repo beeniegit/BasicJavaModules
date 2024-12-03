@@ -27,9 +27,9 @@ public class Nov20Application {
 	}
 	
 	private static void nov26() {
-		String parameter = "teams?id=48";
+		String parameter = "leagues?season=2024";
 		Requester.voidApi(parameter);
-		Requester.voidJsonApi(parameter, "teams48.json");
+		Requester.voidJsonApi(parameter, "league24.json");
 	}
 
 }

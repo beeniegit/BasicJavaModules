@@ -1,19 +1,16 @@
 package com.example.Dec01.Football;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter @Setter @AllArgsConstructor
 public class League {
 
     private int id;
     private String name;
     private String country;
 
-    public League(int id, String name, String country) {
-        this.country = country;
-        this.id = id;
-        this.name = name;
-    }
+    
 
 }

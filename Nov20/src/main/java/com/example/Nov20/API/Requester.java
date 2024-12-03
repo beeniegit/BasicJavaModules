@@ -2,13 +2,16 @@ package com.example.Nov20.API;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -83,15 +86,20 @@ public class Requester {
      * @param outputFilePath
      */
     public static void voidJsonApi(String parameter, String outputFilePath) {
-    	String jsonStr = stringApi(parameter);
-    	
-    	String folder = "C:\\Users\\HP\\git\\BasicJavaModules\\Nov20\\src\\main\\resources\\JsonFiles\\";
-    	Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        Object json = gson.fromJson(jsonStr, Object.class);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(folder + outputFilePath))) {
+        String jsonStr = stringApi(parameter);
+
+        // 데이터가 UTF-8 인코딩으로 제공된다고 가정하고 처리
+        byte[] utf8Bytes = jsonStr.getBytes(StandardCharsets.UTF_8); 
+        String utf8JsonStr = new String(utf8Bytes, StandardCharsets.UTF_8); // UTF-8로 변환
+        
+        String folder = "C:\\Users\\HP\\git\\BasicJavaModules\\Nov20\\src\\main\\resources\\JsonFiles\\";
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Object json = gson.fromJson(utf8JsonStr, Object.class);
+        try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(folder + outputFilePath), StandardCharsets.UTF_8))) { // UTF-8로 파일 쓰기
             writer.write(gson.toJson(json));
         } catch (Exception ex) {
-        	System.out.println(ex);
+            System.out.println(ex);
         }
     }
     
